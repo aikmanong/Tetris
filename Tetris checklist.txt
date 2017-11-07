@@ -1,0 +1,26 @@
+TETRIS Checklist: 
+
+----GUI---- 
+-Tetris grid
+-Next block 
+-Save/Load buttons 
+-score
+
+---Draw Blocks---
+-create class BlockCreator to draw blocks 
+-design texture of the block to use in the BlockCreator class
+
+
+---Tetris Grid--- 
+-Find typical size of a Tetris grid 
+-Create a functional 2D array to hold the blocks
+
+---Next Block--- 
+-Picture of next block should appear in the next block window 
+-That block should fall into the grid. 
+
+--Falling blocks-- 
+-Get blocks to fall down the grid
+-Make them able to rotate
+-blocks should stay within grid 
+-Blocks should be able to stack 
