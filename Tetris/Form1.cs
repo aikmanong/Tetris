@@ -46,5 +46,15 @@ namespace Tetris
         {
 
         }
+
+        /// <summary>
+        /// Grid in middle of table
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
