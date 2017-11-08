@@ -56,6 +56,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(167, 20);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Level
             // 
@@ -96,7 +97,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(34, 303);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(78, 28);
             this.button1.TabIndex = 6;
@@ -106,7 +107,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(118, 306);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(76, 24);
             this.button2.TabIndex = 7;
