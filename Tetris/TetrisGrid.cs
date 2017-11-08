@@ -10,6 +10,21 @@ namespace Tetris
 {
     class TetrisGrid
     {
-        int[,] gameGrid = new int [10,20]; //20 x 10 Tetris Grid 
+        const int width = 10;
+        const int length = 20; 
+        int[,] gameGrid = new int [width,length]; 
+
+
+        //Starts new game empties tetris grid to zero. 
+        public void NewGame()
+        {
+            for(int i = 0; i<width;i++)
+            {
+                for(int j = 0; j<length; i++)
+                {
+                    gameGrid[i, j] = 0; 
+                }
+            }
+        }
     }
 }
