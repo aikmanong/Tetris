@@ -8,5 +8,7 @@ namespace Tetris
 {
     class BlockCreator
     {
+        int[,] block = new int[4, 4]; //Pieces
+
     }
 }
