@@ -10,7 +10,9 @@ namespace Tetris
 {
     class TetrisGrid
     {
-        int[,] gameGrid = new int [9,17]; //9x17 Tetris Grid 
+        const int width = 9;
+        const int length = 17;
+        int[,] gameGrid = new int [width,length]; //9x17 Tetris Grid 
         int[,] block = new int[4, 4]; //Pieces
 
         /// <summary>
@@ -18,9 +20,9 @@ namespace Tetris
         /// </summary>
         public void NewGame()
         {
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < width; i++)
             {
-                for (int j =0; j <17; j++)
+                for (int j =0; j <length; j++)
                 {
                     gameGrid[i, j] = 0;
                 }
