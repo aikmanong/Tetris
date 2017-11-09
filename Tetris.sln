@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tetris", "Tetris\Tetris.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sprites", "Sprites", "{635B7655-8BEC-4492-90AB-1BEA0DF8DF41}"
 	ProjectSection(SolutionItems) = preProject
-		Y:\Downloads\TetrisBlock_RED .png = Y:\Downloads\TetrisBlock_RED .png
+		..\..\..\Downloads\TetrisBlock.png = ..\..\..\Downloads\TetrisBlock.png
 	EndProjectSection
 EndProject
 Global
